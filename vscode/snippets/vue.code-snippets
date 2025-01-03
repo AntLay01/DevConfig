@@ -16,7 +16,7 @@
 			"   </section>",
 			"</template>",
 			"<script setup>",
-			"</setup>"
+			"</script>"
 		],
 		"description": "Skeleton vue 3 setup"
 	},
@@ -40,7 +40,7 @@
 			"  methods: {",
 			"  }",
 			"}",
-			"</setup>"
+			"</script>"
 		],
 		"description": "Skeleton vue 2 options api"
     },
@@ -55,7 +55,7 @@
 			"</template>",
 			"<script setup>",
 			"import { ref, computed, onMounted } from 'vue';",
-			"</setup>"
+			"</script>"
 		],
 		"description": "Skeleton vue 3 setup"
 	},
