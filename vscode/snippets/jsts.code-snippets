@@ -27,7 +27,7 @@
         "scope": "javascript,typescript,typescriptreact,vue",
         "prefix": "logd",
         "body": [
-            "console.log('Data:', ${2:variable})",
+            "console.log('$1:', ${2:variable})",
         ],
         "description": "Log detail data"
     }

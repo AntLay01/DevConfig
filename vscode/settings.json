@@ -1,167 +1,175 @@
 {
-    "svelte.enable-ts-plugin": true,
-    "workbench.colorTheme": "Egoist One",
-    "editor.fontSize": 10.5,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.wordWrap": "on",
-    "editor.fontVariations": false,
-    // "editor.tabSize": 4,
-    "editor.detectIndentation": false,
-    // eslint
-    "editor.codeActionsOnSave": {
-        "source.fixAll": "explicit"
-    },
-    "eslint.format.enable": true,
-    // === workbench custom ===
-    // "editor.formatOnSave": true, /* formatear al guardar */
-    "workbench.iconTheme": "Monokai Classic Icons",
-    "workbench.colorCustomizations": {
-        "tab.activeBackground": "#662900",
-        "tab.unfocusedActiveBackground": "#4b15005d",
-        "editor.background": "#252222e7",
-        "editor.inactiveSelectionBackground": "#ff977d1a",
-        "editor.selectionBackground": "#915f4875"
-    },
-    "window.menuBarVisibility": "compact",
-    "window.commandCenter": false,
-    "workbench.layoutControl.enabled": false,
-    "workbench.statusBar.visible": true,
-    // emmet
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-        "typescript": "typescriptreact"
-    },
-    "emmet.triggerExpansionOnTab": true,
-    "vscode-color-picker.languages": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-        "postcss",
-        "xml",
-        "html"
-    ],
-    // === egoist one === 
-    "editor.tokenColorCustomizations": {
-        "[Egoist One]": {
-            "textMateRules": [
-                {
-                    "scope": "variable.other.object",
-                    "settings": {
-                        "foreground": "#ffae00",
-                        // "foreground": "#dfdfdf",
-                        // "foreground": "#c4c0c0",
-                    },
-                },
-                {
-                    "scope": "variable.other.property",
-                    "settings": {
-                        "foreground": "#dfdfdf",
-                        // "foreground": "#ffae00",
-                        "fontStyle": "italic"
-                    },
-                },
-                {
-                    "scope": "support.function",
-                    "settings": {
-                        "fontStyle": "italic"
-                    }
-                },
-                {
-                    "scope": [
-                        "support.class.builtin",
-                        "support.constant.math"
-                    ],
-                    "settings": {
-                        "fontStyle": "italic"
-                    }
-                },
-                {
-                    "scope": [
-                        "string.template"
-                    ],
-                    "settings": {
-                        "foreground": "#7ac041",
-                    }
-                },
-                {
-                    "scope": [
-                        "keyword.operator.expression.import"
-                    ],
-                    "settings": {
-                        "foreground": "#d562ec",
-                        "fontStyle": "italic"
-                    }
-                },
-                {
-                    "scope": "variable.other.constant.ts",
-                    "settings": {
-                        "foreground": "#e7dede",
-                    }
-                },
-                {
-                    "scope": "meta.object-literal.key",
-                    "settings": {
-                        "foreground": "#c4c0c0",
-                    }
-                },
-                {
-                    "scope": [
-                        "keyword.operator.increment",
-                        "keyword.operator.relational",
-                        "keyword.operator.spread.ts"
-                    ],
-                    "settings": {
-                        "foreground": "#e100ff",
-                        "fontStyle": "bold"
-                    }
-                }
-            ]
+  "svelte.enable-ts-plugin": true,
+  "workbench.colorTheme": "Egoist One",
+  "editor.fontSize": 10.5,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.wordWrap": "on",
+  "editor.fontVariations": false,
+  // "editor.tabSize": 4,
+  "editor.detectIndentation": false,
+  // eslint
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never",
+    "source.fixAll.vue": "never",
+  },
+  "files.refactoring.autoSave": false,
+  "eslint.format.enable": true,
+  // === workbench custom ===
+  // "editor.formatOnSave": true, /* formatear al guardar */
+  "workbench.iconTheme": "Monokai Classic Icons",
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#662900",
+    "tab.unfocusedActiveBackground": "#4b15005d",
+    "editor.background": "#252222e7",
+    "editor.inactiveSelectionBackground": "#ff977d1a",
+    "editor.selectionBackground": "#915f4875"
+  },
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.statusBar.visible": true,
+  // emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "vscode-color-picker.languages": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "postcss",
+    "xml",
+    "html"
+  ],
+  // === egoist one === 
+  "editor.tokenColorCustomizations": {
+    "[Egoist One]": {
+      "textMateRules": [
+        {
+          "scope": "variable.other.object",
+          "settings": {
+            "foreground": "#ffae00",
+            // "foreground": "#dfdfdf",
+            // "foreground": "#c4c0c0",
+          },
         },
+        {
+          "scope": "variable.other.property",
+          "settings": {
+            "foreground": "#dfdfdf",
+            // "foreground": "#ffae00",
+            "fontStyle": "italic"
+          },
+        },
+        {
+          "scope": "support.function",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": [
+            "support.class.builtin",
+            "support.constant.math"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": [
+            "string.template"
+          ],
+          "settings": {
+            "foreground": "#7ac041",
+          }
+        },
+        {
+          "scope": [
+            "keyword.operator.expression.import"
+          ],
+          "settings": {
+            "foreground": "#d562ec",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": "variable.other.constant.ts",
+          "settings": {
+            "foreground": "#e7dede",
+          }
+        },
+        {
+          "scope": "meta.object-literal.key",
+          "settings": {
+            "foreground": "#c4c0c0",
+          }
+        },
+        {
+          "scope": [
+            "keyword.operator.increment",
+            "keyword.operator.relational",
+            "keyword.operator.spread.ts"
+          ],
+          "settings": {
+            "foreground": "#e100ff",
+            "fontStyle": "bold"
+          }
+        }
+      ]
     },
-    // === tailwind css ===
-    "editor.quickSuggestions": {
-        "strings": "on"
-    },
-    "tailwindCSS.includeLanguages": {
-        "plaintext": "html,astro,vue,jsx,tsx,svelte,js"
-    },
-    "terminal.integrated.cursorBlinking": true,
-    "explorer.confirmDragAndDrop": false,
-    "git.openRepositoryInParentFolders": "never",
-    "css.completion.triggerPropertyValueCompletion": false,
-    "explorer.confirmDelete": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "biome_lsp.trace.server": "verbose",
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "cursor.cpp.disabledLanguages": [],
-    "vetur.validation.template": false,
-    "eslint.useFlatConfig": true,
-    "prisma.showPrismaDataPlatformNotification": false,
-    "CodeGPT.Autocomplete.enabled": true,
-    "[json]": {
-        "editor.defaultFormatter": "biomejs.biome"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "biomejs.biome"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "biomejs.biome"
-    },
-    "[css]": {
-        "editor.suggest.insertMode": "replace"
-    },
-    "files.associations": {
-        "*_tw.css": "tailwindcss",
-        "*_tw.module.css": "tailwindcss"
-    },
-    "[astro]": {
-        "editor.defaultFormatter": "astro-build.astro-vscode"
-    }
+  },
+  // === tailwind css ===
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html,astro,vue,jsx,tsx,svelte,js"
+  },
+  "terminal.integrated.cursorBlinking": true,
+  "explorer.confirmDragAndDrop": false,
+  "git.openRepositoryInParentFolders": "never",
+  "css.completion.triggerPropertyValueCompletion": false,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "biome_lsp.trace.server": "verbose",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cursor.cpp.disabledLanguages": [],
+  "vetur.validation.template": false,
+  "eslint.useFlatConfig": true,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "CodeGPT.Autocomplete.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace"
+  },
+  "files.associations": {
+    "*_tw.css": "tailwindcss",
+    "*_tw.module.css": "tailwindcss"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "prettier.tabWidth": 4,
+  "prettier.printWidth": 100,
+  "typescript.experimental.expandableHover": true,
+  "continue.enableTabAutocomplete": false,
+  "continue.telemetryEnabled": false,
+  "editor.snippets.codeActions.enabled": false,
 }
