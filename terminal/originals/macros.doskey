@@ -1,0 +1,38 @@
+pa=php artisan $1
+pal=php artisan list 
+pas=php artisan serve $1
+pat=php artisan tinker
+pam=php artisan make:$1 
+pamc=php artisan make:controller $1
+pamm=php artisan make:model $1
+pam-req=php artisan make:request $1 
+pam-res=php artisan make:resource $1
+par-ls=php artisan route:list
+pam-rul=php artisan make:rule $1
+
+ss=php spark serve $1 $2
+smc=php spark make:controller $1
+smm=php spark make:model $1
+sme=php spark make:entity $1
+smv=php spark make:validation $1
+
+dev=npm run dev
+build=npm run build
+preview=npm run preview
+bdev=bun run dev
+bbuild=bun run build
+bpreview=bun run preview
+
+..=cd ../..
+.=cd ..
+s=start
+s.=start .
+q=exit
+c=code $1
+
+net-ports=call C:\bat\net-ports.bat $1 $2
+net-port-kill=TASKKILL /F /PID $1
+pwd-cp=call C:\bat\pwd-cp.bat
+port-kill=call C:\bat\port-kill.bat $1
+
+ls-i=ls -l -A -h

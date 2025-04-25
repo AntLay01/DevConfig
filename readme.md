@@ -29,6 +29,8 @@ Configuración inicial para la terminal de windows con persistencia a comandos y
 
 **- Paso 6**: Para alias y shorcuts en el archivo ```terminal-config.json```
 
+**Nota**: en la carpeta ```/terminal/originals``` son todos los archvios listaos para copiar en ```/bat```.
+
 ## ```/vscode```
 
 Configuración para **cursor-editor** y cambiar los _**shortcuts**_, _**themes**_ y  _**extensions**_:
